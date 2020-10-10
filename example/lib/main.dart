@@ -50,6 +50,7 @@ class _MyAppState extends State<MyApp> {
       });
     }));
     await engine.enableVideo();
+    await engine.setDefaultAudioRoutetoSpeakerphone(true);
     await engine.joinChannel(null, '123', null, 0);
   }
 
