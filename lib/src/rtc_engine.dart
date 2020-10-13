@@ -618,7 +618,7 @@ class RtcEngine with RtcEngineInterface {
   @override
   Future<void> setDefaultAudioRoutetoSpeakerphone(bool defaultToSpeaker) {
     return _invokeMethod('setDefaultAudioRoutetoSpeakerphone',
-        {'booldefaultToSpeaker': defaultToSpeaker});
+        {'defaultToSpeaker': defaultToSpeaker});
   }
 
   @override
